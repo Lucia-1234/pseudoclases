@@ -1,0 +1,19 @@
+/* Proiedades heredadas por defecto */
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    background-color: blue;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    margin: 12px;
+    padding: 20px 40px;
+
+}
+
+button:hover{
+    background-color: skyblue;
+}
