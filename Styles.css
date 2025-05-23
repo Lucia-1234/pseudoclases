@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-button{
+/* button{
     background-color: blue;
     font-size: 20px;
     border: none;
@@ -16,4 +16,82 @@ button{
 
 button:hover{
     background-color: skyblue;
+} */
+
+/* mensaje oculto */
+
+/* .oculto {
+  width: 70px;
+  height: 70px;
+  background-color: blueviolet;
+  margin-left: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#mensaje {
+  display: none;
+}
+
+#mensaje:target {
+  display: inline-block;
+  color: black;
+} */
+
+/* estilo especial al primer hijo de un contenedor
+.contenedor {
+  margin: 10px 10px;
+  background-color: brown;
+  color: black;
+  font-weight: bold;
+  display: inline-block;
+}
+p:first-child {
+  color: white;
+  font-weight: bolds;
+} */
+
+/* estilizar campos de formulario no validos
+.formulario {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+
+input:invalid {
+  background-color: yellow;
+} */
+
+/* resalta los campos de tipo email
+.resalta{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+input[type="email"]{
+    background-color: darkred;
+    color: white;
+    font-weight: bold;
+} */
+
+/* cambia de borde
+.borde_diferente{
+    width: 40px;
+    height: 40px;
+    color: indigo;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+input:focus{
+    border: 2px outset lime;
+} */
+
+/* unico en su tipo */
+.h1:only-of-type{
+    color: teal;
+    font-family: cursive;
 }
