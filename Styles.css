@@ -4,6 +4,22 @@
     padding: 0;
 }
 
+:root{
+  --color_principal: crimson ;
+  --fuente: Arial;
+  --tamaño: 20px
+}
+
+/* .card{
+  --color: green;
+  --tamaño: 19px;
+  color: var(--color);
+  font-size: var(--tamaño);
+} */
+/* .fallback{
+  color: var(--color_principal, blue);
+} */
+
 /* button{
     background-color: blue;
     font-size: 20px;
@@ -90,8 +106,189 @@ input:focus{
     border: 2px outset lime;
 } */
 
-/* unico en su tipo */
-.h1:only-of-type{
+/* unico en su tipo
+.unico:only-of-type{
     color: teal;
     font-family: cursive;
+} */
+
+/* estilo solo al primer parrafo
+.unico:first-of-type{
+  color: teal;
+  font-family: cursive;
+} */
+
+/* variable alicada
+.unico{
+  color:var(--color);
+} */
+
+
+/* cambia de color al pasar por el link
+.enlace{
+  color: dodgerblue;
+  display: block;
 }
+
+.enlace:hover{
+  color: green;
+  text-decoration: none;
+} */
+
+/* icono antes del titulo
+.icono{
+  color:darkmagenta;
+}
+
+h1::before{
+  content: "⌂";
+  font-size: 23px;
+  margin-right: 15px;
+  color: blue;
+  display: inline-block;
+} */
+
+/* .linea{
+  margin-top: 10px;
+}
+
+.linea::after{
+  content: "";
+  display: block;
+  width: 40%;
+  height: 3px;
+  background-color: crimson;
+} */
+
+/* boton con sombra
+button{
+  border-radius: 7px;
+  margin-left: 15px;
+  margin-top: 15px;
+  border: none;
+  background-color: indigo;
+  text-align: center;
+  line-height: 30px;
+}
+
+button::after{
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 30px;
+  border-radius: 7px;
+  top: 20px;
+  left: 20PX;
+  z-index: -1;
+  background-color: darkorchid;
+} */
+
+/* icono con ::before
+.icono {
+  position: relative;
+  margin-left: 20px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.icono::before {
+  content: "▶";
+  position: absolute;
+  left: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+} */
+
+  /* mueve imagen sin alterar el fujo
+.contenedor {
+  width: 300px;
+  height: 200px;
+  position: relative;
+}
+
+.imagen {
+  position: relative;
+  left: 20px; 
+  top: 10px;  
+  width: 100%;
+  height: auto;
+} */
+
+/* .tarjeta {
+  position: relative;
+  width: 250px;
+  padding: 20px;
+  background-color:plum ;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.eliminar {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 30px;
+  font-size: 14px;
+} */
+
+/* .navegar {
+  position: fixed;
+  top: 0;
+  width: 10%;
+  background: #333;
+  padding: 10px 0;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  overflow:auto;
+} */
+
+/* controlar que caja aparece arriba
+.contenedor {
+  position: relative;
+  width: 300px;
+  height: 200px;           
+}
+.caja-azul {
+  background-color: blue;
+  top: 50px;
+  left: 50px;
+  z-index: 1;
+}
+.caja-roja {
+  background-color: red;
+  top: 30px;
+  left: 30px;
+   z-index: 2; 
+} */
+
+/* .card{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  text-align: center;
+} */
+
+/* aplicando variables
+.variable{
+  color:var(--color);
+  font-size: var(--tamaño);
+  font-family: var(--fuente);
+} */
+
+/* .oscuro{
+  background-color: var(--color);
+  width: 700px;
+  height: 00px;
+} */
